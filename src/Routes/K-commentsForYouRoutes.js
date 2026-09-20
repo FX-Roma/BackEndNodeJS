@@ -1,5 +1,5 @@
 import { Router } from "express";
-import controllerComents from "../Controller/K-commentsForumController.js";
+import controllerComents from "../Controller/K-commentsForYouController.js";
 
 const routerComments = Router();
 routerComments.post('/', controllerComents.createComment);

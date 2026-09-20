@@ -1,4 +1,4 @@
-import ComentarioForo from "../Models/K-commentsForumModule.js";
+import ComentarioForo from "../Models/K-commentsForYouModule.js";
 
 const controllerComments = {
   createComment: async (req, res) => {
