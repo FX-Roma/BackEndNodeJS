@@ -1,5 +1,7 @@
 import "dotenv/config";
 import "./connection.js";
+import servidorKefex from "./server.js";
+
 
 import servidorKefex from "./server.js";
 

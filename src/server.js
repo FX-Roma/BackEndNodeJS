@@ -9,7 +9,7 @@ import authRoutes from "./Routes/Kauth.routes.js";
 import usuarioRoutes from "./Routes/A-usuario.routes.js";
 import publicacionRoutes from "./Routes/A-publicacion.routes.js";
 import favoritoRoutes from "./Routes/A-favorito.routes.js";
-import commentsRoutes from "./Routes/K-commentsForumRoutes.js";
+import commentsRoutes from "./Routes/K-commentsForYouRoutes.js";
 import opinionsRoutes from "./Routes/E-opinionForumRoutes.js";
 import sitesRoutes from "./Routes/E-siteReviewRoutes.js";
 import searchRoutes from "./Routes/searchForumRoutes.js";
