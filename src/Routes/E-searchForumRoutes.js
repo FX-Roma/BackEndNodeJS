@@ -1,5 +1,5 @@
 import { Router } from "express";
-import searchForumController from "../Controller/searchForumController.js";
+import searchForumController from "../Controller/E-searchForumController.js";
 
 const routerSearch = Router();
 
