@@ -12,7 +12,7 @@ import favoritoRoutes from "./Routes/A-favorito.routes.js";
 import commentsRoutes from "./Routes/K-commentsForYouRoutes.js";
 import opinionsRoutes from "./Routes/E-opinionForumRoutes.js";
 import sitesRoutes from "./Routes/E-siteReviewRoutes.js";
-import searchRoutes from "./Routes/searchForumRoutes.js";
+import searchRoutes from "./Routes/E-searchForumRoutes.js";
 
 const servidorKefex = express();
 
