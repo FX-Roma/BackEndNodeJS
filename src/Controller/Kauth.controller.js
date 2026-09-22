@@ -70,9 +70,9 @@ export const register = async (req, res) => {
     const hash = await bcrypt.hash(password, 12);
 
     const usuario = await Usuario.create({
-      nombre,
-      username,
-      correo,
+      nombre: nombre.trim(),
+      username: username.trim(),
+      correo: correo.toLowerCase().trim(),
       contraseña: hash,
       foto,
       ciudad,
@@ -103,7 +103,7 @@ export const login = async (req, res) => {
 
     if (!loginId || !password) {
       return res.status(400).json({
-        mensaje: "Se requiere correo/username e contraseña",
+        mensaje: "Se requiere correo/username y contraseña",
       });
     }
 
